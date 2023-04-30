@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.mom {
+  /* Try setting this to 400px or something */
+  display: table;
+  border: 2px solid #d4d4d4;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.note {
+  height: 10px;
+}
+
+.child {
+  text-align: center;
+  float: left;
+  position: relative;
+  width: 26.67%;
+  margin-left: 20%;
+}
